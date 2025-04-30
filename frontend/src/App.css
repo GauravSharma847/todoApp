@@ -1,0 +1,84 @@
+.app-container {
+  font-family: sans-serif;
+  padding: 1rem;
+  border-width: 1px solid white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: gainsboro; */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-right button {
+  margin-left: 0.5rem;
+}
+
+.search-bar {
+  margin: 1rem 0 ;
+
+}
+
+.search-bar input {
+  
+  width: 50%;
+  padding: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-right button {
+  margin-left: 0.3rem;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.modal-content input, .modal-content textarea {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
